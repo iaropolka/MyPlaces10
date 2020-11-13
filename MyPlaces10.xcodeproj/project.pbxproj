@@ -15,6 +15,7 @@
 		4944EAA3255E7D0400F88494 /* MyPlaces10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944EAA2255E7D0400F88494 /* MyPlaces10Tests.swift */; };
 		4944EAAE255E7D0400F88494 /* MyPlaces10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944EAAD255E7D0400F88494 /* MyPlaces10UITests.swift */; };
 		4944EAC2255E892000F88494 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944EAC1255E892000F88494 /* MainViewController.swift */; };
+		4944EAC7255F16BF00F88494 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944EAC6255F16BF00F88494 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4944EAAD255E7D0400F88494 /* MyPlaces10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlaces10UITests.swift; sourceTree = "<group>"; };
 		4944EAAF255E7D0400F88494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4944EAC1255E892000F88494 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4944EAC6255F16BF00F88494 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				4944EA8B255E7D0200F88494 /* AppDelegate.swift */,
 				4944EAC1255E892000F88494 /* MainViewController.swift */,
+				4944EAC6255F16BF00F88494 /* CustomTableViewCell.swift */,
 				4944EA8D255E7D0200F88494 /* SceneDelegate.swift */,
 				4944EA91255E7D0200F88494 /* Main.storyboard */,
 				4944EA94255E7D0400F88494 /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			files = (
 				4944EAC2255E892000F88494 /* MainViewController.swift in Sources */,
 				4944EA8C255E7D0200F88494 /* AppDelegate.swift in Sources */,
+				4944EAC7255F16BF00F88494 /* CustomTableViewCell.swift in Sources */,
 				4944EA8E255E7D0200F88494 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,10 +442,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyPlaces10/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.savenkovsergey76-yandex.MyPlaces10";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -456,10 +462,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyPlaces10/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.savenkovsergey76-yandex.MyPlaces10";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
